@@ -10,7 +10,7 @@ For localhost kindly use following url.
 URL: http://localhost/users_registration/apidoc/index.html
 users_registration: projectname
 
-If above link is not work kindly check adidoc was install or not in your system.
+If above link is not work kindly check apidoc was install or not in your system.
 You can install api doc by running following comman in cmd
 
 npm install apidoc -g
