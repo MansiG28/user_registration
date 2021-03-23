@@ -3,20 +3,13 @@
 ## Description
 API is build in Codeigniter framework.
 
-## Access API
-Kinldy Find following link for apidoc in which all the api listed with input parameter and output info.
-
-For localhost kindly use following url.
-URL: http://localhost/users_registration/apidoc/index.html
-users_registration: projectname
-
-If above link is not work kindly check apidoc was install or not in your system.
-You can install api doc by running following comman in cmd
-
-npm install apidoc -g
-refurl:https://apidocjs.com/
-
-.sql file also added for refrence.
-
+#Step to run project
+  1) Clone project in your xampp/htdocs [https://github.com/MansiG28/user_registration.git]
+  2) Change project URL: application/config/config.php [base_url]
+  3) Change DB Name: application/config/database.php
+  4) Import .sql file in database already added in repository
+  5) Install apidoc to access api document. Use command line and enter <b>npm install apidoc -g command</b> to install apidoc in your system. Also find url for your refrence if you get any issue[https://apidocjs.com/]
+  6) Click on http://localhost/users_registration/apidoc/index.html to access api document. Here replace [http://localhost/users_registration/]  with your folder location.
+  7) In api document all the details given how to pass JSON input and what oupt put you get. 
 
 
